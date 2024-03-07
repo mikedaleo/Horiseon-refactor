@@ -24,16 +24,16 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-/* Element tag selector that applies padding-top, margin-right, float, font-family, and font-size to everything within the <div> tag of the header */
-header div {
+/* Element tag selector that applies padding-top, margin-right, float, font-family, and font-size to everything within the <nav> tag of the header */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* Element tag selector that applies display and margin-left to anything within the <li> tag that is within the <ul> tag that is within the <div> tag within the header */
-header div ul li {
+/* Element tag selector that applies display and margin-left to anything within the <li> tag that is within the <ul> tag that is within the <nav> tag within the header */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
