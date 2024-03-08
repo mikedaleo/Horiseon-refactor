@@ -8,23 +8,23 @@
 body {
     background-color: #d9dcd6;
 }
-/* Element selector that applies padding, font-family, background-color and color to the header of the webpage */
+/* Element selector that applies style to everything within the header tags. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* Element tag selector that applies display and font-size to the h1 heading inside of the header */
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Element tag selector that applies a color only to the seo class span */
+
 header h1 .seo {
     color: #d9dcd6;
 }
-/* Element tag selector that applies padding-top, margin-right, float, font-family, and font-size to everything within the <nav> tag of the header */
+
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,28 +32,30 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* Element tag selector that applies display and margin-left to anything within the <li> tag that is within the <ul> tag that is within the <nav> tag within the header */
+
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* Elementa tag selector that applies color and text-decoration to anything with an <a> tag */
+/* Element tag selector that applies color and text-decoration to anything with an <a> tag */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* ID tag selector that makes the width of the img 100% of the webpage and applies margin-bottom */
+/* ID img tag selector that applies style to the img with the id="meeting-img" */
 #meeting-img img {
+    height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    object-fit: cover;
 }
-/* Class selector that applies width, display and margin-left to everything within the .content class */
+/* Class selector that applies style to everything within the class=".content" */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/* Class selector that applies properties to everything within the .content-info class */
+/* Class selectors to apply style to the articles within the class="content-info" */
 .content-info {
     margin-bottom: 20px;
     padding: 50px;
@@ -62,28 +64,28 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* Class tag selector that applies properties to every img within the .content-info class */
+
 .content-info img {
     max-height: 200px;
     float:left;
     margin-right: 25px;
 }
-/* Class tag selector that applies properties to every h2 heading within the .content-info class */
+
 .content-info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* Element selector that applies properties to everything within the <p> tag */
+/* Element selector that applies style to everything within the <p> tag */
 p {
     font-size: 16px;
 }
-/* ID img selector that applies properties to the img located within the online-reputation-management ID */
+/* ID img selector that applies style only to the img located within the online-reputation-management ID */
 #online-reputation-management img {
     float: right;
     margin-left: 25px;
     margin-right: 0;
 }
-/* Class selector that applies properties to everything within the benefits class */
+/* Class selector that applies style to everything within the benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -94,31 +96,33 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Class selector that applies properties to everything within the benefit-info class */
+/* Class selectors to apply style to the articles within the class "benefit-info" */
 .benefit-info {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* Class tag selector that applies properties to the h3 headings within the benefit-info class */
+
 .benefit-info h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* Class img selector that applies properties to every img inside the benefit-info class */
+
 .benefit-info img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* Element selector that applies properties to the footer element */
+/* Element selector to apply style to the footer  */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* Element tag selector that applies properties to the h4 heading inside of the footer element */
-footer h4 {
+/* ID selector to adjust the font of Made with ❤️️ by Horiseon */
+ #made-with {
     font-size: 20px;
+    font-weight: bold;
+    
 }
 
